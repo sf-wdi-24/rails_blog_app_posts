@@ -38,6 +38,13 @@
   * If `current_user` is the same `@user` found by the `id` in the URL params, the user is authorized to update and delete.
 * Move any CSS you wrote in `app/assets/stylesheets/application.css` to a `main.css` file (`main.scss` if you're using bootstrap-sass), and use the asset pipeline to include that file in your application. Again, no need to precompile assets in development.
 
+## Super Bonus
+
+* Implement commenting on your blog. A `comment` should belong to both a `user` and a `post`. Users should be able to:
+  * Add a comment to any post, including their own.
+  * View all comments related to a post on the `posts#show` page.
+  * Only `update` and `delete` their own comments.
+
 ## Submission
 
 * As you make code changes, frequently commit and push to GitHub.
