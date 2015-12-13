@@ -23,8 +23,8 @@
 * A `Post` model and corresponding database table with the minimum attributes `title` and `content`.
 * A one-to-many relationship between `users` and `posts`.
 * Model validations on `Post`:
-  * `title`: required, at least 3 characters
-  * `content`: required, at least 10 characters
+  * `title`: presence, minimum 3 characters
+  * `content`: presence, minimum 10 characters
 * Error-handling in the `PostsController` that redirects the user if they submit invalid form data and shows a flash message with the error.
 * Use the asset pipeline instead of CDNs to include Bootstrap in your application. You can either download the files or use the <a href="https://github.com/twbs/bootstrap-sass" target="_blank">bootstrap-sass</a> gem. See today's <a href="https://github.com/sf-wdi-24/modules/tree/master/week-07-rails-continued/day-03/module-02" target="_blank">Asset Pipeline</a> module for guidance. No need to precompile your assets in development :)
 
