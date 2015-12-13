@@ -28,7 +28,7 @@
 * Error-handling in the `PostsController` that redirects the user if they submit invalid form data and shows a flash message with the error.
 * Use the asset pipeline instead of CDNs to include Bootstrap in your application. You can either download the files or use the <a href="https://github.com/twbs/bootstrap-sass" target="_blank">bootstrap-sass</a> gem. See today's <a href="https://github.com/sf-wdi-24/modules/tree/master/week-07-rails-continued/day-03/module-02" target="_blank">Asset Pipeline</a> module for guidance. No need to precompile your assets in development :)
 
-**If you get stuck at any point or need extra guidance, feel free to look at the [solution-posts branch](https://github.com/sf-wdi-24/rails_blog_app/tree/solution-posts) or follow along with the <a href="https://www.railstutorial.org/book" target="_blank">*Ruby on Rails Tutorial* by Michael Hartl</a>.**
+**If you get stuck at any point or need extra guidance, feel free to look at the <a href="https://github.com/sf-wdi-24/rails_blog_app/tree/solution-posts" target="_blank">solution-posts branch</a> or follow along with the <a href="https://www.railstutorial.org/book" target="_blank">*Ruby on Rails Tutorial* by Michael Hartl</a>.**
 
 ## Bonus
 
