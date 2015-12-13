@@ -32,10 +32,11 @@
 
 ## Bonus
 
+* Use a partial to DRY up the code in `app/views/posts/new.html.erb` and `app/views/posts/edit.html.erb`.
 * *Authorize* your site by only letting users update and delete their own posts. **Hints:**
   * You'll need to check for the `current_user` in the view to determine whether or not to show the edit and delete buttons for individual posts. You'll also need to check for the `current_user` in any controller method you want to authorize.
   * If `current_user` is the same `@user` found by the `id` in the URL params, the user is authorized to update and delete.
-* Move any CSS you wrote in `app/assets/stylesheets/application.css` to a `blog.css` file, and use the asset pipeline to include that file in your application. Again, no need to precompile in development.
+* Move any CSS you wrote in `app/assets/stylesheets/application.css` to a `main.css` file (`main.scss` if you're using bootstrap-sass), and use the asset pipeline to include that file in your application. Again, no need to precompile assets in development.
 
 ## Submission
 
