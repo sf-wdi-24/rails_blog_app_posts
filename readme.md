@@ -45,6 +45,8 @@
   * View all comments related to a post on the `posts#show` page.
   * Only `update` and `delete` their own comments.
 
+Refer to the <a href="https://github.com/sf-wdi-24/rails_blog_app/tree/solution_posts_comments" target="_blank">solution_posts_comments branch</a> for guidance.
+
 ## Submission
 
 * As you make code changes, frequently commit and push to GitHub.
